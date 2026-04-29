@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "PacePack",
+    "slug": "pacepack",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A0A0A"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.pacepack.app",
+      "infoPlist": {
+        "NSHealthShareUsageDescription": "PacePack reads your running workouts from Apple Health so your miles automatically count toward your pack's goals. Runs from Apple Watch, Nike Run Club, Garmin, and any compatible app are supported.",
+        "NSHealthUpdateUsageDescription": "PacePack does not write health data.",
+        "NSContactsUsageDescription": "PacePack uses your contacts to help you find and invite friends to join your pack.",
+        "NSUserNotificationUsageDescription": "PacePack sends notifications when your pack logs runs, hits milestones, and completes goals."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0A0A0A"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
