@@ -1,13 +1,13 @@
 import { TextStyle } from 'react-native';
 
-// Font families — loaded via expo-font
+// Font families — loaded via @expo-google-fonts
 export const Fonts = {
-  heading: 'BarlowCondensed-Bold',
-  headingBlack: 'BarlowCondensed-Black',
-  headingMedium: 'BarlowCondensed-Medium',
-  body: 'Inter-Regular',
-  bodySemiBold: 'Inter-SemiBold',
-  bodyBold: 'Inter-Bold',
+  heading: 'BarlowCondensed_700Bold',
+  headingBlack: 'BarlowCondensed_900Black',
+  headingMedium: 'BarlowCondensed_500Medium',
+  body: 'Inter_400Regular',
+  bodySemiBold: 'Inter_600SemiBold',
+  bodyBold: 'Inter_700Bold',
 } as const;
 
 // Fallback system fonts used before custom fonts load
